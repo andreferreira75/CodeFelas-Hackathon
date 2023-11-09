@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+  }
+
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .username{
+    color:crimson;
+  }
+
+  .password{
+    color: crimson;
+  }
+
+  .form-control{
+    color: black;
+    background-color: grey;
+    border-color: grey;
+  }
+
+  .form-label{
+    color: crimson;
+  }
+
+  .btn{
+    margin-top: 20px;
+    width: 200px;
+    height: 60px;
+    font-size: 18px;
+    background-color: crimson;
+    color: black;
+    border-color: black;
+    
+  }
+
+  .btn:hover{
+    background-color: crimson;
+    color: white;
+    border-color: black;
+  }
+
+

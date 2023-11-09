@@ -1,0 +1,193 @@
+body {
+    
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    cursor: default;
+}
+a:hover{
+    cursor: default;
+}
+
+#fan-page {
+    font-family: Apple Chancery, cursive;
+    font-size: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    color: white;
+    background-color: rgb(84, 0, 0);
+}
+
+.gun {
+    height: 60px;
+    width: 60px;
+}
+
+#main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding-left: 200px;
+    padding-right: 200px;
+    background-color: burlywood;
+}
+
+#cast {
+
+    display: flex;
+    justify-content: center;
+}
+
+.tbl {
+
+    display: flex;
+    align-items: center;
+}
+
+#cast_box{
+    padding-top: 80px;
+    display: flexbox;
+    align-items: center;
+    justify-items: center;
+}
+#link-music {
+    text-decoration: none;
+    color: black;
+}
+
+.links {
+
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+#content {
+
+    color: black;
+    background-color: burlywood;
+    height: 100%;
+    width: 100%;
+}
+
+#first-p {
+    font-size: 24px;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+}
+#sec-p{
+    color: black;
+    font-size: 24px;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+}
+
+#img1 {
+    padding: 20px;
+    height: 280px;
+    width: 270px;
+}
+#end_text_img{
+    width: 80%;
+    padding-left: 10%;
+}
+#third-p{
+    color: black;
+    font-size: 24px;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+}
+
+#img5 {
+
+    padding: 20px;
+    height: 280px;
+    width: 270px;
+}
+
+#grp-img1 {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.img2 {
+
+    height: 100px;
+    width: 100px;
+}
+
+#grp-img2 {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.img3 {
+    height: 100px;
+    width: 100px;
+}
+
+#footer {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 400px;
+    background-color: burlywood;
+
+}
+
+#pulp-fiction-img {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#pulp-fiction {
+
+    height: 200px;
+    width: 200px;
+}
+
+#watch-img {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#watch {
+
+    height: 200px;
+    width: 200px;
+}
+
+#music-img {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#music {
+
+    padding-right: 0px;
+    height: 200px;
+    width: 200px;
+}
+
+#music-desc {
+
+    padding-right: 0px;
+    color: black;
+}

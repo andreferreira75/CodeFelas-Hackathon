@@ -1,0 +1,111 @@
+/* Your existing CSS code here */
+
+/* Additional styling for the shopping cart page */
+html{
+    background-color: rgb(84, 0, 0);
+}
+#shopping-cart{
+    background-color: burlywood;
+    padding: 15px;
+    margin: 0 0 0 20px;
+    border: 0px solid #ccc;
+    width: calc(100% - 40px);
+}
+
+main{
+    padding-top: 80px;
+    background-color: rgb(84, 0, 0);
+    margin: 0px;
+    padding-left: 0px;
+}
+
+#cart h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#cart-items {
+    list-style: none;
+    padding: 0;
+}
+#cart_image{
+    border-radius: 35px;
+    background-color: rgb(84, 0, 0);
+}
+
+#checkout-button {
+    margin-top: 10px;
+}
+
+#cart-items li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#cart-items li button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#checkout-button {
+    margin-top: 10px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+#checkout-button:hover,
+#cart-items li button:hover {
+    background-color: #dc3545;
+}
+
+#address-form {
+    margin-top: 20px;
+}
+
+#address-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#address-form input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#address-form button[type="submit"] {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#address-form button[type="submit"]:hover {
+    background-color: #dc3545;
+}
+
+/* Styles for the order status message */
+#order-status {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #dc3545;
+}
+
+#header_image_cart{
+    border-radius: 35px;
+    background-color: rgb(84, 0, 0);
+}

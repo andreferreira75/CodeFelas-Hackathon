@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible” content=“IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pulp Fiction</title>
+    <link rel="stylesheet" href="SecPage.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="shopingcart.js"></script>
+</head>
+<body>
+    <nav id="navbar">
+        <ul>
+            <li><H1 id="title">Welcome to CodeFelas Corp!</H1></li>
+            <li id="basket"><a href="http://192.168.0.166:5500/shopping-cart.html">🛒</a></li>
+            
+        </ul>
+    </nav>
+    
+<aside>
+    <nav id="sidebar">
+        <ul>
+            <hr>
+            <li><button id="drug_button" class="scroll-button btn btn-link btn-lg" style="text-decoration: none; color: rgb(255, 255, 255);" data-target="drug">Drugs</button></li>
+            <hr>
+            <li><button id="weapon_button" class="scroll-button btn btn-link btn-lg" style="text-decoration: none; color: rgb(255, 255, 255);" data-target="weapon">Weapons</button></li>
+            <hr>
+            <li><button id="hitman_button" class="scroll-button btn btn-link btn-lg" style="text-decoration: none; color: rgb(255, 255, 255);" data-target="hitman">Hitmans</button></li>
+            <hr>
+            <li><button id="cleaner_button" class="scroll-button btn btn-link btn-lg" style="text-decoration: none; color: rgb(255, 255, 255);" data-target="cleaner">Cleaners</button></li>
+            <hr>
+        </ul>
+    </nav>
+</aside>
+<main>
+    <header>
+       <img id="header-image" src="https://i.redd.it/1iwscu6rcsw11.jpg"/> 
+    </header>
+    
+    <div id="main-content">
+            <div id="drug">
+                <h1 class="product_types">Drugs:</H1> 
+                    <div class="items">
+                        <img class="product_images"src="https://cardiff.imgix.net/__data/assets/image/0004/460849/Cocaine.jpg?w=873&h=491&fit=crop&q=60&auto=format"/>
+                        <div class="infos">
+                            <h3 class="product_names">Cocaine</h3>
+                            <p style="font-size: medium;"><b>Description:</b> Cocaine is a powerful and illegal stimulant drug that is derived from the coca plant. 
+                                It is known for its stimulating effects on the central nervous system, producing feelings of euphoria, increased energy, and heightened alertness. 
+                                However, these effects come with significant risks and potential harm.</p>
+                            <p style="font-size:x-large;"><b>Price:</b> ₮ 50.00 </p>
+                        </div>
+                        <button class="add-to-cart-button btn btn-warning"  data-name="Cocaine" data-price="50.00" data-quantity="1">Buy!</button>
+                    </div>
+                    <div class="items">
+                        <img class="product_images"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHTNvW47EnTGM5sEvE7awexI40kI5RYKb6rQ&usqp=CAU"/>
+                        <div class="infos">
+                            <h3 class="product_names">Heroin</h3>
+                            <p style="font-size: medium;"><b>Description:</b> Heroin is a powerful and illegal opioid drug that is synthesized from morphine, which is a natural substance derived from the opium poppy plant.
+                                It's known for its intense and immediate effects, creating a sense of euphoria and relaxation in users. However, these effects come with a high risk of addiction and severe health consequences.</p>
+                            <p style="font-size:x-large;"><b>Price:</b> ₮ 60.00</p>
+                        </div>
+                        <button class="add-to-cart-button btn btn-warning"  data-name="Heroin" data-price="60.00" data-quantity="1">Buy!</button>
+                    </div>
+            </div>
+                
+            <div id="weapon">
+                <hr class="hr_p">
+                <H1 class="product_types">Weapons:</H1>
+                <div class="items">
+                    <img class="product_images"src="https://www.imfdb.org/images/thumb/b/bd/Ingram-mac10_new.jpg/450px-Ingram-mac10_new.jpg"/>
+                    <div class="infos">
+                        <h3 class="product_names">MAC-10 (Suppressed)</h3>
+                        <p style="font-size: medium;"><b>Description:</b> Caliber: The MAC-10 is available in various calibers, with the most common being 9mm Parabellum. Other calibers like .45 ACP are also used.
+                            Rate of Fire: The MAC-10 has a high rate of fire, capable of firing around 1,000 rounds per minute. This rapid firing rate makes it effective for close-range engagements.
+                            Magazine Capacity: The firearm typically uses detachable box magazines with varying capacities, often ranging from 20 to 30 rounds.</p>
+                        <p style="font-size:x-large;"><b>Price:</b> ₮ 800.00 </p>
+                    </div>
+                    <button class="add-to-cart-button btn btn-warning"  data-name="MAC-10 (Suppressed)" data-price="800.00" data-quantity="1">Buy!</button>
+                </div>
+                <div class="items">
+                    <img class="product_images"src="https://www.imfdb.org/images/thumb/6/66/StarBNickelPulpFiction.jpg/350px-StarBNickelPulpFiction.jpg"/>
+                    <div class="infos">
+                        <h3 class="product_names">Star Model B</h3>
+                        <p style="font-size: medium;"><b>Description:</b> Construction: The pistol's frame and slide were typically constructed from steel, making it a relatively durable and rugged firearm.
+                            Its overall design was well-suited for military, law enforcement, and civilian use.
+                            Capacity: The Star Model B generally had a magazine capacity of around 8 to 9 rounds, depending on the caliber and specific variant.
+                            Sights: The pistol was often equipped with basic iron sights, typically a fixed front sight and a dovetailed rear sight.</p>
+                        <p style="font-size:x-large;"><b>Price:</b> ₮ 499.00 </p>
+                    </div>
+                    <button class="add-to-cart-button btn btn-warning"  data-name="Star Model B" data-price="499.00" data-quantity="1">Buy!</button>
+                </div>
+                <div class="items">
+                    <img class="product_images"src="https://www.imfdb.org/images/thumb/c/c1/M1911A1-AutoOrdChrome_PF.jpg/350px-M1911A1-AutoOrdChrome_PF.jpg"/>
+                    <div class="infos">
+                        <h3 class="product_names">Auto-Ordnance M1911A1</h3>
+                        <p style="font-size: medium;"><b>Description:</b> Construction: The pistol is typically constructed with a steel frame and slide, providing durability and longevity. 
+                            It captures the historical aesthetics of the M1911A1 while incorporating modern manufacturing techniques.
+                            Caliber: The Auto-Ordnance M1911A1 is chambered in .45 ACP (Automatic Colt Pistol), the same caliber as the original M1911A1. This caliber is known for its stopping power and historical significance.                            
+                            Capacity: The magazine capacity of the Auto-Ordnance M1911A1 is usually 7 or 8 rounds, depending on the specific variant and local regulations.                           
+                            Sights: The pistol is equipped with traditional iron sights, with a front blade sight and a rear notch sight. Some models may have improved sights for better accuracy.                          
+                            Grips: The grips of the Auto-Ordnance M1911A1 may vary, but they often replicate the original checkered wood grips for an authentic appearance.</p>
+                        <p style="font-size:x-large;"><b>Price:</b> ₮ 449.00 </p>
+                    </div>
+                    <button class="add-to-cart-button btn btn-warning"  data-name="Auto-Ordnance M1911A1" data-price="449.00" data-quantity="1">Buy!</button>
+                </div>   
+                <div class="items">
+                    <img class="product_images"src="https://www.imfdb.org/images/thumb/7/71/Smith-%26-Wesson-32-Long-PF_Ringo.jpg/350px-Smith-%26-Wesson-32-Long-PF_Ringo.jpg"/>
+                    <div class="infos">
+                        <h3 class="product_names">Smith & Wesson Model 30</h3>
+                        <p style="font-size: medium;"><b>Description:</b> Caliber: The Model 30 is typically chambered in .32 S&W Long or .32 H&R Magnum. 
+                            These calibers provide manageable recoil and sufficient power for self-defense or target shooting.
+                            Capacity: The revolver typically has a 6-round cylinder capacity. The cylinder swings out to the left side of the frame for loading and unloading.                           
+                            Sights: The Model 30 is equipped with fixed iron sights, usually consisting of a front blade sight and a rear notch sight. These sights are simple and effective for accurate shooting at short to moderate distances.                        
+                            Construction: The frame and cylinder of the Model 30 are often made from steel, while the grip may be made from various materials, such as wood or synthetic materials.</p>
+                        <p style="font-size:x-large;"><b>Price:</b> ₮ 399.00 </p>
+                    </div>
+                    <button class="add-to-cart-button btn btn-warning"  data-name="Smith & Wesson Model 30" data-price=" 399.00" data-quantity="1">Buy!</button>
+                </div>
+                <div class="items">
+                    <img class="product_images"src="https://www.imfdb.org/images/thumb/f/f5/PulpFictionS%26WM402.jpg/350px-PulpFictionS%26WM402.jpg"/>
+                    <div class="infos">
+                        <h3 class="product_names">Smith & Wesson Model 40 Centennial</h3>
+                        <p style="font-size: medium;"><b>Description:</b> Caliber: The Model 30 is typically chambered in .32 S&W Long or .32 H&R Magnum. 
+                            These calibers provide manageable recoil and sufficient power for self-defense or target shooting.
+                            Capacity: The revolver typically has a 6-round cylinder capacity. The cylinder swings out to the left side of the frame for loading and unloading.                           
+                            Sights: The Model 30 is equipped with fixed iron sights, usually consisting of a front blade sight and a rear notch sight. These sights are simple and effective for accurate shooting at short to moderate distances.                           
+                            Construction: The frame and cylinder of the Model 30 are often made from steel, while the grip may be made from various materials, such as wood or synthetic materials.</p>
+                        <p style="font-size:x-large;"><b>Price:</b> ₮ 399.00 </p>
+                    </div>
+                    <button class="add-to-cart-button btn btn-warning"  data-name="Smith & Wesson Model 40 Centennial" data-price="399.00" data-quantity="1">Buy!</button>
+                </div>                                                                   
+                <div class="items">
+                    <img class="product_images"src="https://www.imfdb.org/images/thumb/5/5a/S%26W4506_PF_BruceW.jpg/350px-S%26W4506_PF_BruceW.jpg"/>
+                    <div class="infos">
+                        <h3 class="product_names">Smith & Wesson 4506</h3>
+                        <p style="font-size: medium;"><b>Description:</b> Caliber: The 4506 is chambered in .45 ACP, a caliber well-regarded for its stopping power and historic use in military and law enforcement contexts.
+                            Capacity: The pistol typically has a magazine capacity of around 8 rounds, though capacity may vary based on the specific variant.                            
+                            Sights: The Smith & Wesson 4506 is equipped with fixed iron sights, usually consisting of a front blade sight and a rear notch sight. These sights are designed for accurate shooting at various distances.                            
+                            Safety Features: The 4506 includes various safety features, including a manual thumb safety, a grip safety, and a firing pin safety. These mechanisms enhance the pistol's safety during handling and operation.</p>
+                        <p style="font-size:x-large;"><b>Price:</b> ₮ 579.00 </p>
+                    </div>
+                    <button class="add-to-cart-button btn btn-warning"  data-name="Smith & Wesson 4506" data-price="579.00" data-quantity="1">Buy!</button>
+                </div>
+                <div class="items">
+                    <img class="product_images"src="https://www.imfdb.org/images/thumb/8/80/TaurusModel689.jpg/350px-TaurusModel689.jpg"/>
+                    <div class="infos">
+                        <h3 class="product_names">Taurus Model 689</h3>
+                        <p style="font-size: medium;"><b>Description:</b> Caliber: The Model 689 is commonly chambered in .357 Magnum, a powerful cartridge known for its versatility and ability to chamber both .357 Magnum and .38 Special ammunition.
+                            Capacity: The revolver's cylinder typically holds 6 rounds, although there may be variations with different capacities.                            
+                            Sights: The Model 689 is equipped with fixed iron sights, usually consisting of a front blade sight and a rear notch sight. These sights are designed for accurate shooting at moderate distances.
+                            Construction: The frame and cylinder of the Model 689 are often made from steel, while the grip may be made from various materials, such as rubber or wood.</p>
+                        <p style="font-size:x-large;"><b>Price:</b> ₮ 519.00 </p>
+                    </div>
+                    <button class="add-to-cart-button btn btn-warning"  data-name="Taurus Model 689" data-price="519.00" data-quantity="1">Buy!</button>
+                </div>
+                <div class="items">
+                    <img class="product_images"src="https://www.imfdb.org/images/thumb/5/5c/Rem870extwood.jpg/500px-Rem870extwood.jpg"/>
+                    <div class="infos">
+                        <h3 class="product_names">Remington 870</h3>
+                        <p style="font-size: medium;"><b>Description:</b> Construction: The receiver of the Remington 870 is typically made from steel, while the stock and forend can be made from wood, synthetic materials, or a combination of both. This allows for different aesthetics and levels of durability.
+                            Magazine Capacity: Depending on the model and configuration, the magazine capacity of the Remington 870 can range from 4 to 8 rounds, with some extended magazine tube options available.                            
+                            Sights: The shotgun may come equipped with bead sights or rifle-style sights, and some models have the option for mounting various types of optics or red dot sights.</p>
+                        <p style="font-size:x-large;"><b>Price:</b> ₮ 769.00 </p>
+                    </div>
+                    <button class="add-to-cart-button btn btn-warning"  data-name="Remington 870" data-price="769.00" data-quantity="1">Buy!</button>
+                </div>
+
+            </div>
+            <div id="hitman">
+                <hr class="hr_p">
+                <H1 class="product_types">Hitmans:</H1>  
+                <div class="items">
+                    <img class="product_images"src="https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters/large/800/Vincent-Vega.Pulp-Fiction.webp"/>
+                    <div class="infos">
+                        <h3 class="product_names">Vincent Vega</h3>
+                        <p style="font-size: medium;"><b>Description:</b> Lethal Proficiency: Vega is a highly skilled and lethal hitman, proficient in various aspects of his trade.
+                            Precision Execution: He carries out assignments with precision and calculated efficiency, showcasing his expertise in eliminating targets. Weapon Mastery: Vega displays mastery over firearms and combat techniques, making him a formidable force in confrontations.
+                            Tactical Planning: He formulates tactical plans to achieve his objectives, showcasing his strategic thinking and problem-solving skills. 
+                            Collaboration: As a partner to Jules Winnfield, Vega demonstrates seamless teamwork and coordination, enhancing their effectiveness as a duo.
+                            Code of Conduct: While ruthless in his profession, Vega follows a personal code of conduct that shapes his decisions and actions.</p>
+                        <p style="font-size:x-large;"><b>Price:</b> ₮ 699.00 </p>
+                    </div>
+                    <button class="add-to-cart-button btn btn-warning"  data-name="Vincent Vega" data-price="699.00" data-quantity="1">Buy!</button>
+                </div>
+                <div class="items">
+                    <img class="product_images"src="https://wallpapers.com/images/hd/pulp-fiction-samuel-l-jackson-jules-winnfield-d7eirhuorpxpgf5a.jpg"/>
+                    <div class="infos">
+                        <h3 class="product_names">Jules Winnfield</h3>
+                        <p style="font-size: medium;"><b>Description:</b> Intimidating Presence: Jules commands respect and fear with his imposing stature and commanding presence.
+                            Confident Execution: He approaches his hits with confidence, executing them methodically and without hesitation.                            
+                            Effective Communication: Jules possesses excellent communication skills, using his words to control situations and convey authority. 
+                            Precision Aim: He displays exceptional marksmanship, ensuring precise and lethal shots with his firearm.
+                            Unwavering Loyalty: Jules is fiercely loyal to his partner Vincent Vega, fostering a strong and reliable partnership.                          
+                            Calm Authority: In high-stress situations, he maintains a calm demeanor, exuding an air of authority and control.</p>
+                        <p style="font-size:x-large;"><b>Price:</b> ₮ 699.00 </p>
+                    </div>
+                    <button class="add-to-cart-button btn btn-warning"  data-name="Jules Winnfield" data-price="699.00" data-quantity="1">Buy!</button>
+                </div>
+                <div class="items">
+                    <img class="product_images"src="https://www.indiewire.com/wp-content/uploads/2016/07/samuel-l-jackson-in-pulp-fiction.jpg"/>
+                    <div class="infos">
+                        <h3 class="product_names">Team</h3>
+                        <p style="font-size: medium;"><b>Description:</b> Lethal Synergy: Together, Vincent and Jules form a highly effective and lethal hitman team, complementing each other's skills and strengths.
+                            Tactical Coordination: They demonstrate seamless tactical coordination during missions, executing their tasks with synchronized precision.                           
+                            Complementary Roles: Vincent's suave demeanor and Jules's commanding presence create a balanced dynamic that disarms targets and controls situations.                                                        
+                            Strategic Planning: The duo excels in devising strategic plans, leveraging their combined expertise to overcome obstacles and challenges. 
+                            Unwavering Loyalty: Their unwavering loyalty to each other strengthens their partnership, fostering trust and mutual reliance.                                                   
+                            Shared Philosophy: Jules's philosophical insights and Vincent's introspection lead to thought-provoking discussions, enriching their relationship.</p>
+                        <p style="font-size:x-large;"><b>Price:</b> ₮ 1100.00 </p>
+                    </div>
+                    <button class="add-to-cart-button btn btn-warning"  data-name="Team" data-price="1100.00" data-quantity="1">Buy!</button>
+                </div>
+            </div >
+            <div id="cleaner">
+                <hr class="hr_p">
+                <H1 class="product_types">Cleaners:</H1>
+                <div class="items">
+                    <img class="product_images"src="https://grumo.com/wp-content/uploads/2017/08/mr-wolf-solves-problems-keitel-min.jpg"/>
+                    <div class="infos">
+                        <h3 class="product_names">Mr. Wolf</h3>
+                        <p style="font-size: medium;"><b>Description:</b> Problem Solver: Mr. Wolf is a highly skilled and experienced "cleaner" who specializes in resolving crises and cleaning up messy situations.
+                            Professionalism: He exudes an air of professionalism, remaining calm and focused regardless of the chaos around him.                           
+                            Sharp Dresser: Mr. Wolf is typically seen wearing a well-fitted suit, emphasizing his attention to detail and commitment to his work.                            
+                            Methodical: He approaches his tasks methodically, breaking down complex problems into manageable steps and addressing each one with precision.                            
+                            Effective Time Management: Mr. Wolf values efficiency and time management, swiftly and expertly taking control of situations to bring order.                            
+                            </p>
+                        <p style="font-size:x-large;"><b>Price:</b> ₮ 2499.00 </p>
+                    </div>
+                    <button class="add-to-cart-button btn btn-warning"  data-name="Mr. Wolf" data-price="2499.00" data-quantity="1">Buy!</button>
+                </div> 
+                <div class="items">
+                    <img class="product_images"src="https://allthatsinteresting.com/wordpress/wp-content/uploads/2018/07/sparks-steakhouse-murder.jpg"/>
+                    <div class="infos">
+                        <h3 class="product_names">Car Cleaner</h3>
+                        <p style="font-size: medium;"><b>Description:</b> Crime Scene Cleanup: Our skilled team of experts is trained to handle the cleanup of crime scenes, removing all traces of evidence, debris, and biohazards. We restore vehicles to their pre-incident condition, ensuring they are safe and sanitized.
+                            Biohazard Removal: We employ advanced techniques and tools to safely and thoroughly eliminate biohazards, ensuring the safety of both our clients and our team.                            
+                            Discreet Service: We understand the sensitive nature of crime scene cleanup.                            
+                            Odor Elimination: We go beyond the surface to neutralize and eliminate any lingering odors, leaving your vehicle smelling fresh and clean.                            
+                            Evidence Preservation: Our experts are trained to handle items that might be related to a crime, ensuring that any relevant evidence is preserved and documented appropriately.</p>
+                        <p style="font-size:x-large;"><b>Price:</b> ₮ 1899.00 </p>
+                    </div>
+                    <button class="add-to-cart-button btn btn-warning"  data-name="Car Cleaner" data-price="1899.00" data-quantity="1">Buy!</button>
+                </div>
+                <br>
+                <br>
+            </div>
+    </div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+    var button1 = document.getElementById('drug_button');
+    var button2 = document.getElementById('weapon_button');
+    var button3 = document.getElementById('hitman_button');
+    var button4 = document.getElementById('cleaner_button');
+
+    var targetSection1 = document.getElementById('drug');
+    var targetSection2 = document.getElementById('weapon');
+    var targetSection3 = document.getElementById('hitman');
+    var targetSection4 = document.getElementById('cleaner');
+
+    function scrollToSection(section) {
+        window.scrollTo({
+            top: section.offsetTop,
+            behavior: 'smooth'
+        });
+    }
+
+    button1.addEventListener('click', function() {
+        scrollToSection(targetSection1);
+    });
+
+    button2.addEventListener('click', function() {
+        scrollToSection(targetSection2);
+    });
+
+    button3.addEventListener('click', function() {
+        scrollToSection(targetSection3);
+    });
+
+    button4.addEventListener('click', function() {
+        scrollToSection(targetSection4);
+    });
+});
+</script>
+
+    
+</main>
+<footer class="row align-self-end">FOOTER</footer>
+</body>
+</html>
